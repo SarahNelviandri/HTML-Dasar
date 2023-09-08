@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Login</title>
+</head>
+<body>
+    <h2>FORM MEMBER ACCOUNT</h2>
+    <form action="process_login.php" method="post">
+    </form>
+    <label for="nama">Nama</label> <br>
+    <input id="nama" type="text"> 
+
+    <br><label for="isian-email">Email</label> </br>
+    <input id="isian-email" type="email">
+
+    <br><label for="isian-No-HP">No HP</label></br>
+    <input id="No-HP" type="number"> 
+
+
+    <br>Jenis kelamin:</br>
+        <div>
+            <input id="lk" type="radio" name="Jenis_kelamin">
+            <label for="lk">Laki-laki</label>
+        </div>
+
+        <div>
+            <input id="pr" type="radio" name="jenis_kelamin">
+            <label for="pr">perempuan</label>
+        </div>
+
+        <br>Prodi</br>
+        <select>
+            <option>Pilih</option>
+            <option>Teknik Informatika</option>
+            <option>Sistem Informasi</option>
+            <option>Teknik Elektro</option>
+            <option>Teknik Sipil</option>
+        </select>
+
+        <br>Hobi:</br>
+        <div>
+            <input id="membaca" type="checkbox" name="Hobi">
+            <label for="membaca">Membaca</label>
+        </div>
+
+        <div>
+            <input id="menulis" type="checkbox" name="Hobi">
+            <label for="menulis">Menulis</label>
+        </div>
+        <div>
+            <input id="menyanyi" type="checkbox" name="Hobi">
+            <label for="menyanyi">Menyanyi</label>
+        </div>
+
+        <div>
+            <input id="olahraga" type="checkbox" name="Hobi">
+            <label for="olahraga">Olahraga</label>
+        </div>
+
+        <br>Alamat</br>
+        <textarea></textarea><br>
+
+        <br><label for="myfile">Foto Diri</label></br>
+        <input type="file" id="myfile" name="myfile">
+        
+        <br><input type="submit" value="Daftar"></br>
+    </form>
+</body>
+</html>
+

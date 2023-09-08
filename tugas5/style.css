@@ -1,0 +1,33 @@
+body {
+    background-color:black
+}
+
+h1 {
+        font-family: arial;
+        color:beige;
+        background-color: brown; width: fit-content;  
+    }
+
+img {
+    width: 550px; 
+    height: 300px;
+}
+
+h3 {
+        font-family: arial;
+        color: beige;
+        background-color: brown; width: fit-content;
+}
+
+label {
+    color: aliceblue;
+}
+
+video {
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 600px;
+    height: max-content;
+    top: 0;
+    left:0;
+}
